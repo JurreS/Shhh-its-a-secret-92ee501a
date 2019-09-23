@@ -3,7 +3,7 @@ body {
 }
 
  label {
-    display: block;
+    display: inline;
     font: 1rem 'Fira Sans', sans-serif;
 }
 
@@ -68,4 +68,12 @@ label {
 #exciting:before {
     content: "ℹ️";
     margin-right: 5px;
+}
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
 }
